@@ -1,3 +1,4 @@
+//pass by reference by pointers
 #include<iostream>
 using namespace std;
 void changeB(int *ptr){
