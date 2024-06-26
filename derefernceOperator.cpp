@@ -1,3 +1,5 @@
+//dereference operator is used when we have to find the value through the give adderes using the asteric
+
 #include<iostream>
 using namespace std;
 int main(){
