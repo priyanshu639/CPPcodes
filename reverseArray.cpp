@@ -11,9 +11,9 @@ int main(){
     int n=sizeof(arr)/sizeof(int);
     int start=0,end=n-1;
     while(start<end){
-        int temp=arr[start];
-        arr[start]=arr[end];
-        arr[end]=temp;
+        int temp=arr[start];//swaping can be done like this also-->
+        arr[start]=arr[end];//swap(arr[start],arr[end])
+        arr[end]=temp;//an inbuilt function is present in c++ for swaping.
 
         start++;
         end--;
