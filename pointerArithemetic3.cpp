@@ -7,6 +7,8 @@ int main(){
     cout<<ptr1<<endl;
     cout<<ptr2<<endl;
     cout<<(ptr2-ptr1)<<endl;
+    cout<<(ptr2>ptr1)<<endl;
+    cout<<(ptr2==ptr1)<<endl;
 
     
     return 0;
