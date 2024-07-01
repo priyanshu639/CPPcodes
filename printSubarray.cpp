@@ -21,3 +21,4 @@ int main(){
     return 0;
 
 }
+// timecomplexitiy for this code is big of n cube "o(n^3)"
