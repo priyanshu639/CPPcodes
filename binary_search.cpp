@@ -10,7 +10,7 @@ int printarry(int *arr,int n,int  key){
         else if(arr[mid]<key){//for 2nd half
             start=mid+1;
         }
-        else{
+        else{//for first half
             end=mid-1;
         }
         }

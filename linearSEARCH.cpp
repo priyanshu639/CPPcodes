@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 void function(int arrys[],int n){
-    int key=20;
+    int key=10;
     for(int i=0;i<n;i++){
         if (arrys[i]==key)cout<<i<<"\n˜";
     }cout<<"-1";
