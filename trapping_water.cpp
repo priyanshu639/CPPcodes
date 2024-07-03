@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void trap(int* height,int n){
+int trap(int* height,int n){
     int leftmax[20000];
     int rightmax[20000];
     leftmax[0]=height[0];
@@ -20,6 +20,7 @@ void trap(int* height,int n){
             watertrapped+=currwatertrapped;
     }
     cout<<watertrapped<<endl;
+    return watertrapped;   
 }
 int main(){
     int height[]={4,2,0,6,3,2,5};
