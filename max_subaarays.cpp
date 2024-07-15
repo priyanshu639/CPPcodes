@@ -1,3 +1,5 @@
+// timecomplexity for this code is big of n cube.
+// brute force
 #include<iostream>
 using namespace std;
 void maxsubarry(int *arr,int n){
